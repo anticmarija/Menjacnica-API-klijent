@@ -1,19 +1,21 @@
 package kursnalista;
 
+import java.util.GregorianCalendar;
+
 
 
 public class KursnaLista {
 
-	private String datum;
+	private GregorianCalendar datum;
 	
 	private Valuta[] valute = new Valuta[50];
 
-	
-	public String getDatum() {
+
+	public GregorianCalendar getDatum() {
 		return datum;
 	}
 
-	public void setDatum(String datum) {
+	public void setDatum(GregorianCalendar datum) {
 		this.datum = datum;
 	}
 

@@ -21,4 +21,19 @@ public class Valuta {
 	public String toString () {
 		return "Valuta: " +naziv+ ", kurs: " +kurs;
 	}
+	
+
+	public boolean equals (Object o) {
+		
+		if (o instanceof Valuta) {
+			Valuta v = (Valuta) (o);
+
+		if (kurs == v.getKurs() && naziv.equals(v.getNaziv()))
+			return true;
+		else return false;
+		}
+		else return false;
+	}	
+		
 }
+

@@ -18,7 +18,7 @@ public class JSONRatesApiKomunikacija {
 	private static final String jsonRatesURL = "http://jsonrates.com/get/";
 	
 	
-	public Valuta[] vratiIznosKurseva (String[] from, String to) {
+	public  Valuta[] vratiIznosKurseva (String[] from, String to) {
 		
 		Valuta[] niz = new Valuta[from.length];
 	
